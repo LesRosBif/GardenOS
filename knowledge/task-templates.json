@@ -1,0 +1,389 @@
+{
+  "schemaVersion": "1.1",
+  "tasks": [
+    {
+      "id": "preparation",
+      "anchor": "before-sowing",
+      "offsetDays": -14,
+      "description": "Prepare growing area; check soil condition and required supports",
+      "frequency": "once",
+      "confidence": "medium"
+    },
+    {
+      "id": "sowing",
+      "anchor": "sowing",
+      "offsetDays": 0,
+      "description": "Sow or plant using crop and method guidance",
+      "frequency": "once",
+      "confidence": "medium"
+    },
+    {
+      "id": "germination-check",
+      "anchor": "after-sowing",
+      "offsetDays": 14,
+      "description": "Check emergence and moisture; actual germination varies with temperature",
+      "frequency": "once",
+      "confidence": "medium"
+    },
+    {
+      "id": "establishment",
+      "anchor": "after-sowing",
+      "offsetDays": 28,
+      "description": "Check establishment, weed pressure and spacing",
+      "frequency": "once",
+      "confidence": "medium"
+    },
+    {
+      "id": "pest-inspection",
+      "anchor": "after-establishment",
+      "offsetDays": 14,
+      "description": "Inspect for crop-specific pests and disease; repeat as appropriate",
+      "frequency": "once",
+      "confidence": "medium"
+    },
+    {
+      "id": "harvest-check",
+      "anchor": "harvest-window",
+      "offsetDays": 0,
+      "description": "Check readiness; harvest based on observed maturity",
+      "frequency": "once",
+      "confidence": "medium"
+    },
+    {
+      "id": "clear-or-prune",
+      "anchor": "after-harvest",
+      "offsetDays": 7,
+      "description": "Clear annual crop or perform perennial aftercare as appropriate",
+      "frequency": "once",
+      "confidence": "medium"
+    },
+    {
+      "id": "thin-seedlings",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "thin seedlings",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "carrot-fly-mesh",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "carrot fly mesh",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "earth-up",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "earth up",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "blight-inspection",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "blight inspection",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "water-during-fruiting",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "water during fruiting",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "pick-frequently",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "pick frequently",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "support-and-train",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "support and train",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "water-and-feed",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "water and feed",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "install-support",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "install support",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "install-support-if-climbing",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "install support if climbing",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "watch-bolting",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "watch bolting",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "succession-sow",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "succession sow",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "watch-slugs",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "watch slugs",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "brassica-netting",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "brassica netting",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "check-caterpillars",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "check caterpillars",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "plant-in-block",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "plant in block",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "check-pollination",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "check pollination",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "feed-during-fruiting",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "feed during fruiting",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "check-blight",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "check blight",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "avoid-heavy-first-year-harvest",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "avoid heavy first year harvest",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "mulch-dormant-crown",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "mulch dormant crown",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "protect-fruit-from-birds",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "protect fruit from birds",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "manage-runners",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "manage runners",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "support-canes",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "support canes",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "prune-by-fruiting-type",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "prune by fruiting type",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "monitor-winter-temperature",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "monitor winter temperature",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "feed-citrus",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "feed citrus",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "check-scale",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "check scale",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "use-ericaceous-medium",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "use ericaceous medium",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "rainwater-preferred",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "rainwater preferred",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "bird-netting",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "bird netting",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "winter-protection-if-needed",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "winter protection if needed",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "prune-to-control-size",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "prune to control size",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "avoid-waterlogging",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "avoid waterlogging",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "light-prune",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "light prune",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "trim-after-flowering",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "trim after flowering",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "cut-back-after-flowering",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "cut back after flowering",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "contain-spread",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "contain spread",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "divide-when-crowded",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "divide when crowded",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "pinch-growing-tips",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "pinch growing tips",
+      "frequency": "conditional",
+      "confidence": "low"
+    },
+    {
+      "id": "protect-from-cold",
+      "anchor": "growth-stage",
+      "offsetDays": null,
+      "description": "protect from cold",
+      "frequency": "conditional",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.1",
+  "relationships": [
+    {
+      "cropA": "potato",
+      "cropB": "tomato",
+      "type": "shared-disease-risk",
+      "mechanism": "Solanaceae rotation and late blight risk",
+      "confidence": "medium",
+      "hardBlock": false,
+      "sourceIds": []
+    },
+    {
+      "cropA": "cabbage",
+      "cropB": "kale",
+      "type": "shared-family-rotation",
+      "mechanism": "Brassicaceae soil-borne disease and pest carryover",
+      "confidence": "high",
+      "hardBlock": false,
+      "sourceIds": []
+    },
+    {
+      "cropA": "cabbage",
+      "cropB": "broccoli",
+      "type": "shared-family-rotation",
+      "mechanism": "Brassicaceae soil-borne disease and pest carryover",
+      "confidence": "high",
+      "hardBlock": false,
+      "sourceIds": []
+    },
+    {
+      "cropA": "kale",
+      "cropB": "broccoli",
+      "type": "shared-family-rotation",
+      "mechanism": "Brassicaceae soil-borne disease and pest carryover",
+      "confidence": "high",
+      "hardBlock": false,
+      "sourceIds": []
+    },
+    {
+      "cropA": "rosemary",
+      "cropB": "thyme",
+      "type": "similar-requirements",
+      "mechanism": "Both favour free-draining soil",
+      "confidence": "medium",
+      "hardBlock": false,
+      "sourceIds": []
+    },
+    {
+      "cropA": "thyme",
+      "cropB": "oregano",
+      "type": "similar-requirements",
+      "mechanism": "Both tolerate relatively free-draining sites",
+      "confidence": "medium",
+      "hardBlock": false,
+      "sourceIds": []
+    },
+    {
+      "cropA": "blueberry",
+      "cropB": "rosemary",
+      "type": "soil-incompatibility",
+      "mechanism": "Blueberries require distinctly acidic growing medium",
+      "confidence": "high",
+      "hardBlock": true,
+      "sourceIds": []
+    },
+    {
+      "cropA": "blueberry",
+      "cropB": "thyme",
+      "type": "soil-incompatibility",
+      "mechanism": "Acidic blueberry medium conflicts with typical thyme conditions",
+      "confidence": "high",
+      "hardBlock": true,
+      "sourceIds": []
+    },
+    {
+      "cropA": "mint",
+      "cropB": "rosemary",
+      "type": "management-conflict",
+      "mechanism": "Mint spreads and prefers more moisture; separate containers advised",
+      "confidence": "medium",
+      "hardBlock": false,
+      "sourceIds": []
+    },
+    {
+      "cropA": "mint",
+      "cropB": "thyme",
+      "type": "management-conflict",
+      "mechanism": "Mint spreads and has different moisture requirements",
+      "confidence": "medium",
+      "hardBlock": false,
+      "sourceIds": []
+    },
+    {
+      "cropA": "tomato",
+      "cropB": "basil",
+      "type": "possible-intercrop",
+      "mechanism": "Potential shared space only with adequate light, moisture and airflow; pest-repellent claims not established",
+      "confidence": "low",
+      "hardBlock": false,
+      "sourceIds": []
+    },
+    {
+      "cropA": "carrot",
+      "cropB": "lettuce",
+      "type": "possible-intercrop",
+      "mechanism": "Short-season lettuce may occupy space before carrot canopy develops",
+      "confidence": "medium",
+      "hardBlock": false,
+      "sourceIds": []
+    }
+  ]
+}

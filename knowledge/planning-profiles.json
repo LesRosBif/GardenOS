@@ -1,0 +1,2451 @@
+{
+  "schemaVersion": "1.1",
+  "profiles": [
+    {
+      "cropId": "carrot",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-block",
+        "plantSpacingCm": 8,
+        "rowSpacingCm": 25,
+        "approxPlantsPerM2": 50,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 6,
+          "max": 35
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 6,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": false,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "direct",
+        "sowMonths": [
+          3,
+          7
+        ],
+        "harvestMonths": [
+          6,
+          11
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 70,
+          "max": 120
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "once",
+        "successionIntervalDays": {
+          "min": 14,
+          "max": 28
+        },
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "carrot-standard",
+          "name": "standard",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "thin-seedlings",
+        "carrot-fly-mesh"
+      ],
+      "risks": {
+        "rotationFamily": "Apiaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "potato",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-block",
+        "plantSpacingCm": 35,
+        "rowSpacingCm": 70,
+        "approxPlantsPerM2": 4.08,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 28,
+          "max": 98
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 6,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": false,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "vegetative-or-established-plant",
+        "sowMonths": [
+          3,
+          4
+        ],
+        "harvestMonths": [
+          6,
+          10
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 70,
+          "max": 150
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "once",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "potato-first-early",
+          "name": "first early",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "potato-second-early",
+          "name": "second early",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "potato-maincrop",
+          "name": "maincrop",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "earth-up",
+        "blight-inspection"
+      ],
+      "risks": {
+        "rotationFamily": "Solanaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "parsnip",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-block",
+        "plantSpacingCm": 13,
+        "rowSpacingCm": 30,
+        "approxPlantsPerM2": 25.64,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 10,
+          "max": 42
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 6,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": false,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "direct",
+        "sowMonths": [
+          3,
+          5
+        ],
+        "harvestMonths": [
+          9,
+          2
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 140,
+          "max": 230
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "once",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "parsnip-standard",
+          "name": "standard",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "thin-seedlings"
+      ],
+      "risks": {
+        "rotationFamily": "Apiaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "courgette",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-block",
+        "plantSpacingCm": 90,
+        "rowSpacingCm": 90,
+        "approxPlantsPerM2": 1.23,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 72,
+          "max": 126
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 6,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": true,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": false,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "indoor",
+        "sowMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          10
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 55,
+          "max": 100
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "courgette-standard",
+          "name": "standard",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "water-during-fruiting",
+        "pick-frequently"
+      ],
+      "risks": {
+        "rotationFamily": "Cucurbitaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "cucumber",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-supported",
+        "plantSpacingCm": 50,
+        "rowSpacingCm": 70,
+        "approxPlantsPerM2": 2.86,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 40,
+          "max": 98
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 6,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": true,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "variety-dependent",
+        "permanentBedOccupancy": false,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "indoor",
+        "sowMonths": [
+          3,
+          5
+        ],
+        "harvestMonths": [
+          6,
+          9
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 60,
+          "max": 110
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "cucumber-greenhouse",
+          "name": "greenhouse",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "cucumber-outdoor",
+          "name": "outdoor",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "support-and-train",
+        "water-and-feed"
+      ],
+      "risks": {
+        "rotationFamily": "Cucurbitaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "pea",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-supported",
+        "plantSpacingCm": 8,
+        "rowSpacingCm": 45,
+        "approxPlantsPerM2": 27.78,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 6,
+          "max": 63
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 5,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "variety-dependent",
+        "permanentBedOccupancy": false,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "direct",
+        "sowMonths": [
+          3,
+          6
+        ],
+        "harvestMonths": [
+          6,
+          9
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 65,
+          "max": 110
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": {
+          "min": 14,
+          "max": 28
+        },
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "pea-shelling",
+          "name": "shelling",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "pea-mangetout",
+          "name": "mangetout",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "install-support",
+        "pick-frequently"
+      ],
+      "risks": {
+        "rotationFamily": "Fabaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "bean",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-supported",
+        "plantSpacingCm": 20,
+        "rowSpacingCm": 45,
+        "approxPlantsPerM2": 11.11,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 16,
+          "max": 63
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 6,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": true,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "variety-dependent",
+        "permanentBedOccupancy": false,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "direct",
+        "sowMonths": [
+          4,
+          7
+        ],
+        "harvestMonths": [
+          6,
+          10
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 60,
+          "max": 120
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": {
+          "min": 14,
+          "max": 28
+        },
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "bean-french-bush",
+          "name": "french bush",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "bean-runner-climbing",
+          "name": "runner climbing",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "bean-broad",
+          "name": "broad",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "install-support-if-climbing",
+        "pick-frequently"
+      ],
+      "risks": {
+        "rotationFamily": "Fabaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "spinach",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-block",
+        "plantSpacingCm": 15,
+        "rowSpacingCm": 25,
+        "approxPlantsPerM2": 26.67,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 12,
+          "max": 35
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 3,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": false,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "direct",
+        "sowMonths": [
+          3,
+          9
+        ],
+        "harvestMonths": [
+          4,
+          11
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 35,
+          "max": 70
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": {
+          "min": 14,
+          "max": 28
+        },
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "spinach-standard",
+          "name": "standard",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "thin-seedlings",
+        "watch-bolting"
+      ],
+      "risks": {
+        "rotationFamily": "Amaranthaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "lettuce",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-block",
+        "plantSpacingCm": 25,
+        "rowSpacingCm": 25,
+        "approxPlantsPerM2": 16,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 20,
+          "max": 35
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 3,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": false,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "both",
+        "sowMonths": [
+          2,
+          9
+        ],
+        "harvestMonths": [
+          4,
+          11
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 35,
+          "max": 90
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": {
+          "min": 14,
+          "max": 28
+        },
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "lettuce-heading",
+          "name": "heading",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "lettuce-cut-and-come-again",
+          "name": "cut and come again",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "succession-sow",
+        "watch-slugs"
+      ],
+      "risks": {
+        "rotationFamily": "Asteraceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "cabbage",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-block",
+        "plantSpacingCm": 50,
+        "rowSpacingCm": 55,
+        "approxPlantsPerM2": 3.64,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 40,
+          "max": 77
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 6,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": false,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "indoor",
+        "sowMonths": [
+          2,
+          8
+        ],
+        "harvestMonths": [
+          5,
+          3
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 90,
+          "max": 250
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "once",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "cabbage-spring",
+          "name": "spring",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "cabbage-summer",
+          "name": "summer",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "cabbage-autumn",
+          "name": "autumn",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "cabbage-winter",
+          "name": "winter",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "brassica-netting",
+        "check-caterpillars"
+      ],
+      "risks": {
+        "rotationFamily": "Brassicaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "kale",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-block",
+        "plantSpacingCm": 50,
+        "rowSpacingCm": 55,
+        "approxPlantsPerM2": 3.64,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 40,
+          "max": 77
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 5,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": false,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "indoor",
+        "sowMonths": [
+          3,
+          6
+        ],
+        "harvestMonths": [
+          9,
+          3
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 100,
+          "max": 180
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "kale-standard",
+          "name": "standard",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "brassica-netting",
+        "check-caterpillars"
+      ],
+      "risks": {
+        "rotationFamily": "Brassicaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "broccoli",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-block",
+        "plantSpacingCm": 50,
+        "rowSpacingCm": 55,
+        "approxPlantsPerM2": 3.64,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 40,
+          "max": 77
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 6,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": false,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "indoor",
+        "sowMonths": [
+          3,
+          6
+        ],
+        "harvestMonths": [
+          6,
+          4
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 90,
+          "max": 300
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "broccoli-calabrese",
+          "name": "calabrese",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "broccoli-purple-sprouting",
+          "name": "purple sprouting",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "brassica-netting",
+        "check-caterpillars"
+      ],
+      "risks": {
+        "rotationFamily": "Brassicaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "sweetcorn",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-block",
+        "plantSpacingCm": 40,
+        "rowSpacingCm": 55,
+        "approxPlantsPerM2": 4.55,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 32,
+          "max": 77
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 7,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": true,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": false,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "indoor",
+        "sowMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          8,
+          9
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 90,
+          "max": 140
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "once",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "sweetcorn-early",
+          "name": "early",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "sweetcorn-mainseason",
+          "name": "mainseason",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "plant-in-block",
+        "check-pollination"
+      ],
+      "risks": {
+        "rotationFamily": "Poaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "tomato",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-supported",
+        "plantSpacingCm": 50,
+        "rowSpacingCm": 60,
+        "approxPlantsPerM2": 3.33,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 40,
+          "max": 84
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 6,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": true,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "variety-dependent",
+        "permanentBedOccupancy": false,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "indoor",
+        "sowMonths": [
+          2,
+          4
+        ],
+        "harvestMonths": [
+          7,
+          10
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 110,
+          "max": 180
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "tomato-cordon",
+          "name": "cordon",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "tomato-bush",
+          "name": "bush",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "support-and-train",
+        "feed-during-fruiting",
+        "check-blight"
+      ],
+      "risks": {
+        "rotationFamily": "Solanaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "rhubarb",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "permanent-or-container",
+        "plantSpacingCm": 100,
+        "rowSpacingCm": 100,
+        "approxPlantsPerM2": 1,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 80,
+          "max": 140
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 4,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": true,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "vegetative-or-established-plant",
+        "sowMonths": [
+          11,
+          3
+        ],
+        "harvestMonths": [
+          3,
+          6
+        ],
+        "daysFromSowToFirstHarvest": null,
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "rhubarb-standard",
+          "name": "standard",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "avoid-heavy-first-year-harvest",
+        "mulch-dormant-crown"
+      ],
+      "risks": {
+        "rotationFamily": "Polygonaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "strawberry",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "permanent-or-container",
+        "plantSpacingCm": 35,
+        "rowSpacingCm": 40,
+        "approxPlantsPerM2": 7.14,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 28,
+          "max": 56
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 6,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": true,
+        "containerSuitable": true
+      },
+      "phenology": {
+        "propagation": "vegetative-or-established-plant",
+        "sowMonths": [
+          3,
+          10
+        ],
+        "harvestMonths": [
+          5,
+          9
+        ],
+        "daysFromSowToFirstHarvest": null,
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "strawberry-summer-fruiting",
+          "name": "summer fruiting",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "strawberry-everbearing",
+          "name": "everbearing",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "protect-fruit-from-birds",
+        "manage-runners"
+      ],
+      "risks": {
+        "rotationFamily": "Rosaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "raspberry",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-supported",
+        "plantSpacingCm": 45,
+        "rowSpacingCm": 50,
+        "approxPlantsPerM2": 4.44,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 36,
+          "max": 70
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 6,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "variety-dependent",
+        "permanentBedOccupancy": true,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "vegetative-or-established-plant",
+        "sowMonths": [
+          11,
+          3
+        ],
+        "harvestMonths": [
+          6,
+          10
+        ],
+        "daysFromSowToFirstHarvest": null,
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "raspberry-summer-fruiting",
+          "name": "summer fruiting",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "raspberry-autumn-fruiting",
+          "name": "autumn fruiting",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "support-canes",
+        "prune-by-fruiting-type"
+      ],
+      "risks": {
+        "rotationFamily": "Rosaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "lemon",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "permanent-or-container",
+        "plantSpacingCm": 150,
+        "rowSpacingCm": 150,
+        "approxPlantsPerM2": 0.44,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 120,
+          "max": 210
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 7,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": true,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": true,
+        "containerSuitable": true
+      },
+      "phenology": {
+        "propagation": "vegetative-or-established-plant",
+        "sowMonths": [
+          3,
+          5
+        ],
+        "harvestMonths": [
+          1,
+          12
+        ],
+        "daysFromSowToFirstHarvest": null,
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "lemon-standard",
+          "name": "standard",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "monitor-winter-temperature",
+        "feed-citrus",
+        "check-scale"
+      ],
+      "risks": {
+        "rotationFamily": "Rutaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "orange",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "permanent-or-container",
+        "plantSpacingCm": 180,
+        "rowSpacingCm": 180,
+        "approxPlantsPerM2": 0.31,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 144,
+          "max": 252
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 7,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": true,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": true,
+        "containerSuitable": true
+      },
+      "phenology": {
+        "propagation": "vegetative-or-established-plant",
+        "sowMonths": [
+          3,
+          5
+        ],
+        "harvestMonths": [
+          1,
+          12
+        ],
+        "daysFromSowToFirstHarvest": null,
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "orange-standard",
+          "name": "standard",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "monitor-winter-temperature",
+        "feed-citrus",
+        "check-scale"
+      ],
+      "risks": {
+        "rotationFamily": "Rutaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "blueberry",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "permanent-or-container",
+        "plantSpacingCm": 120,
+        "rowSpacingCm": 120,
+        "approxPlantsPerM2": 0.69,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 96,
+          "max": 168
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 6,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 4.5,
+          "phMax": 5.5,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": true,
+        "containerSuitable": true
+      },
+      "phenology": {
+        "propagation": "vegetative-or-established-plant",
+        "sowMonths": [
+          11,
+          3
+        ],
+        "harvestMonths": [
+          7,
+          9
+        ],
+        "daysFromSowToFirstHarvest": null,
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "blueberry-standard",
+          "name": "standard",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "use-ericaceous-medium",
+        "rainwater-preferred",
+        "bird-netting"
+      ],
+      "risks": {
+        "rotationFamily": "Ericaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "fig",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "permanent-or-container",
+        "plantSpacingCm": 200,
+        "rowSpacingCm": 200,
+        "approxPlantsPerM2": 0.25,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 160,
+          "max": 280
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 7,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": true,
+        "containerSuitable": true
+      },
+      "phenology": {
+        "propagation": "vegetative-or-established-plant",
+        "sowMonths": [
+          3,
+          5
+        ],
+        "harvestMonths": [
+          8,
+          10
+        ],
+        "daysFromSowToFirstHarvest": null,
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "fig-standard",
+          "name": "standard",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "winter-protection-if-needed",
+        "prune-to-control-size"
+      ],
+      "risks": {
+        "rotationFamily": "Moraceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "rosemary",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "permanent-or-container",
+        "plantSpacingCm": 65,
+        "rowSpacingCm": 65,
+        "approxPlantsPerM2": 2.37,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 52,
+          "max": 91
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 7,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "free-draining"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": true,
+        "containerSuitable": true
+      },
+      "phenology": {
+        "propagation": "vegetative-or-established-plant",
+        "sowMonths": [
+          4,
+          6
+        ],
+        "harvestMonths": [
+          4,
+          11
+        ],
+        "daysFromSowToFirstHarvest": null,
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "rosemary-standard",
+          "name": "standard",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "avoid-waterlogging",
+        "light-prune"
+      ],
+      "risks": {
+        "rotationFamily": "Lamiaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "thyme",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "permanent-or-container",
+        "plantSpacingCm": 25,
+        "rowSpacingCm": 30,
+        "approxPlantsPerM2": 13.33,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 20,
+          "max": 42
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 7,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "free-draining"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": true,
+        "containerSuitable": true
+      },
+      "phenology": {
+        "propagation": "both",
+        "sowMonths": [
+          3,
+          6
+        ],
+        "harvestMonths": [
+          4,
+          10
+        ],
+        "daysFromSowToFirstHarvest": null,
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "thyme-standard",
+          "name": "standard",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "avoid-waterlogging",
+        "trim-after-flowering"
+      ],
+      "risks": {
+        "rotationFamily": "Lamiaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "oregano",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "permanent-or-container",
+        "plantSpacingCm": 35,
+        "rowSpacingCm": 35,
+        "approxPlantsPerM2": 8.16,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 28,
+          "max": 49
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 6,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "free-draining"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": true,
+        "containerSuitable": false
+      },
+      "phenology": {
+        "propagation": "both",
+        "sowMonths": [
+          3,
+          6
+        ],
+        "harvestMonths": [
+          5,
+          9
+        ],
+        "daysFromSowToFirstHarvest": null,
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "oregano-standard",
+          "name": "standard",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "cut-back-after-flowering"
+      ],
+      "risks": {
+        "rotationFamily": "Lamiaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "mint",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "permanent-or-container",
+        "plantSpacingCm": 40,
+        "rowSpacingCm": 40,
+        "approxPlantsPerM2": 6.25,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 32,
+          "max": 56
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 3,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": false,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": true,
+        "containerSuitable": true
+      },
+      "phenology": {
+        "propagation": "vegetative-or-established-plant",
+        "sowMonths": [
+          3,
+          5
+        ],
+        "harvestMonths": [
+          4,
+          10
+        ],
+        "daysFromSowToFirstHarvest": null,
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "mint-standard",
+          "name": "standard",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "contain-spread",
+        "divide-when-crowded"
+      ],
+      "risks": {
+        "rotationFamily": "Lamiaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    },
+    {
+      "cropId": "basil",
+      "recordVersion": "1.1",
+      "planning": {
+        "plantingSystem": "row-or-block",
+        "plantSpacingCm": 25,
+        "rowSpacingCm": 25,
+        "approxPlantsPerM2": 16,
+        "densityMethod": "rectangular-row-estimate",
+        "canopyDiameterCm": {
+          "min": 20,
+          "max": 35
+        },
+        "heightCm": null,
+        "rootDepthCm": null,
+        "footprintByStage": null,
+        "light": {
+          "preferredDirectHoursMin": 7,
+          "minimumDirectHours": null,
+          "shadePenalty": null
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "frost": {
+          "tender": true,
+          "minimumTemperatureC": null
+        },
+        "waterDemand": "unknown",
+        "nutrientDemand": "unknown",
+        "support": "optional",
+        "permanentBedOccupancy": false,
+        "containerSuitable": true
+      },
+      "phenology": {
+        "propagation": "indoor",
+        "sowMonths": [
+          3,
+          6
+        ],
+        "harvestMonths": [
+          6,
+          9
+        ],
+        "daysFromSowToFirstHarvest": {
+          "min": 55,
+          "max": 95
+        },
+        "germinationDays": null,
+        "germinationTemperatureC": null,
+        "sowDepthCm": null,
+        "transplantWindowMonths": null,
+        "hardeningOffDays": null,
+        "harvestStyle": "repeat",
+        "successionIntervalDays": null,
+        "storageDays": null
+      },
+      "cultivationProfiles": [
+        {
+          "id": "basil-sweet",
+          "name": "sweet",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        },
+        {
+          "id": "basil-compact",
+          "name": "compact",
+          "override": {},
+          "evidenceStatus": "requires-cultivar-review"
+        }
+      ],
+      "taskTemplateIds": [
+        "preparation",
+        "sowing",
+        "establishment",
+        "pest-inspection",
+        "harvest-check",
+        "clear-or-prune",
+        "pinch-growing-tips",
+        "protect-from-cold"
+      ],
+      "risks": {
+        "rotationFamily": "Lamiaceae",
+        "commonPests": [],
+        "commonDiseases": [],
+        "pollination": "unknown",
+        "companions": []
+      },
+      "provenance": {
+        "status": "provisional",
+        "confidence": "low",
+        "region": "southern-england",
+        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GardenOS planning enrichment v1.1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "profiles"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.1"
+    },
+    "profiles": {
+      "type": "array",
+      "minItems": 26,
+      "items": {
+        "type": "object",
+        "required": [
+          "cropId",
+          "planning",
+          "phenology",
+          "cultivationProfiles",
+          "taskTemplateIds",
+          "risks",
+          "provenance"
+        ],
+        "properties": {
+          "cropId": {
+            "type": "string"
+          },
+          "planning": {
+            "type": "object",
+            "required": [
+              "plantSpacingCm",
+              "rowSpacingCm",
+              "approxPlantsPerM2",
+              "light",
+              "soil",
+              "frost"
+            ]
+          },
+          "phenology": {
+            "type": "object",
+            "required": [
+              "propagation",
+              "sowMonths",
+              "harvestMonths",
+              "harvestStyle"
+            ]
+          },
+          "cultivationProfiles": {
+            "type": "array",
+            "minItems": 1
+          },
+          "taskTemplateIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "risks": {
+            "type": "object"
+          },
+          "provenance": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}

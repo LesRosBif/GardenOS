@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.1",
+  "policy": {
+    "statuses": [
+      "verified",
+      "provisional",
+      "unknown"
+    ],
+    "confidence": [
+      "high",
+      "medium",
+      "low"
+    ],
+    "rules": [
+      "Never treat a low-confidence companion claim as a hard blocker",
+      "Never infer missing temperatures, mature dimensions or cultivar maturity",
+      "Plant density derived from spacing is a geometric estimate, not a yield guarantee",
+      "Permanent crops occupy space beyond a harvest season",
+      "Specific crop/cultivar advice must be checked against authoritative UK sources"
+    ]
+  },
+  "suggestedSources": [
+    {
+      "id": "rhs",
+      "name": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/vegetables",
+      "use": "Crop-by-crop UK growing guides; source-specific review outstanding"
+    },
+    {
+      "id": "rhs-fruit",
+      "name": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/fruit",
+      "use": "UK fruit cultivation; source-specific review outstanding"
+    }
+  ]
+}
