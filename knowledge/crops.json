@@ -37,11 +37,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 0.08,
-          "high": 0.18,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"
@@ -91,11 +91,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 1,
-          "high": 2.5,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"
@@ -145,11 +145,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 0.15,
-          "high": 0.35,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"
@@ -199,11 +199,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 3,
-          "high": 8,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"
@@ -253,11 +253,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 2,
-          "high": 6,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"
@@ -307,11 +307,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 0.1,
-          "high": 0.4,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"
@@ -361,11 +361,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 0.3,
-          "high": 1.5,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"
@@ -415,11 +415,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 0.1,
-          "high": 0.35,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"
@@ -469,11 +469,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 0.15,
-          "high": 0.4,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"
@@ -523,11 +523,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 0.5,
-          "high": 2,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"
@@ -577,11 +577,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 0.5,
-          "high": 1.5,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"
@@ -631,11 +631,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 0.3,
-          "high": 1.2,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"
@@ -685,11 +685,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 0.15,
-          "high": 0.5,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"
@@ -739,11 +739,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 2,
-          "high": 5,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"
@@ -793,11 +793,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 1,
-          "high": 4,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "permanent"
@@ -847,11 +847,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 0.15,
-          "high": 0.5,
+          "low": 0.5,
+          "high": 1,
           "unit": "kg",
           "basis": "plant",
-          "confidence": "low"
+          "confidence": "medium"
         },
         "occupancy": {
           "type": "permanent"
@@ -901,11 +901,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 0.4,
+          "low": 1,
           "high": 1.5,
           "unit": "kg",
           "basis": "plant",
-          "confidence": "low"
+          "confidence": "medium"
         },
         "occupancy": {
           "type": "permanent"
@@ -956,10 +956,10 @@
         },
         "yield": {
           "low": 2,
-          "high": 10,
+          "high": 7,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "tree",
+          "confidence": "medium"
         },
         "occupancy": {
           "type": "permanent"
@@ -1010,10 +1010,10 @@
         },
         "yield": {
           "low": 2,
-          "high": 12,
+          "high": 7,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "tree",
+          "confidence": "medium"
         },
         "occupancy": {
           "type": "permanent"
@@ -1063,11 +1063,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 1,
-          "high": 4,
+          "low": 2.25,
+          "high": 5,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "bush",
+          "confidence": "medium"
         },
         "occupancy": {
           "type": "permanent"
@@ -1117,11 +1117,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 2,
-          "high": 10,
+          "low": 4.5,
+          "high": 9,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "tree",
+          "confidence": "medium"
         },
         "occupancy": {
           "type": "permanent"
@@ -1171,11 +1171,11 @@
           "drainage": "free-draining"
         },
         "yield": {
-          "low": 0.1,
-          "high": 0.5,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "permanent"
@@ -1225,11 +1225,11 @@
           "drainage": "free-draining"
         },
         "yield": {
-          "low": 0.05,
-          "high": 0.2,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "permanent"
@@ -1279,11 +1279,11 @@
           "drainage": "free-draining"
         },
         "yield": {
-          "low": 0.1,
-          "high": 0.3,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "permanent"
@@ -1333,11 +1333,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 0.2,
-          "high": 0.8,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "permanent"
@@ -1387,11 +1387,11 @@
           "drainage": "well-drained"
         },
         "yield": {
-          "low": 0.1,
-          "high": 0.35,
+          "low": null,
+          "high": null,
           "unit": "kg",
-          "basis": "plant",
-          "confidence": "low"
+          "basis": "unknown",
+          "confidence": "unknown"
         },
         "occupancy": {
           "type": "seasonal"

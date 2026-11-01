@@ -92,7 +92,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -192,7 +192,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -282,7 +282,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -373,7 +373,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -470,7 +470,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -567,7 +567,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -673,7 +673,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -767,7 +767,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -867,7 +867,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -976,7 +976,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -1067,7 +1067,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -1161,7 +1161,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -1258,7 +1258,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -1356,7 +1356,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -1444,7 +1444,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -1538,7 +1538,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Mature plant yield from RHS in knowledge/season-and-yield-validation.json; other fields remain provisional. RHS rough guide; weather, cultivar, establishment and training affect outcome"
       }
     },
     {
@@ -1632,7 +1632,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Mature plant yield from RHS in knowledge/season-and-yield-validation.json; other fields remain provisional. RHS rough guide; weather, cultivar, establishment and training affect outcome"
       }
     },
     {
@@ -1721,7 +1721,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Mature plant yield from RHS in knowledge/season-and-yield-validation.json; other fields remain provisional. RHS generic citrus tree yield, not specific to lemon or orange and may be unrealistic in cool UK greenhouses"
       }
     },
     {
@@ -1810,7 +1810,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Mature plant yield from RHS in knowledge/season-and-yield-validation.json; other fields remain provisional. RHS generic citrus tree yield, not specific to lemon or orange and may be unrealistic in cool UK greenhouses"
       }
     },
     {
@@ -1899,7 +1899,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Mature plant yield from RHS in knowledge/season-and-yield-validation.json; other fields remain provisional. RHS rough guide; weather, cultivar, establishment and training affect outcome"
       }
     },
     {
@@ -1984,7 +1984,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Mature plant yield from RHS in knowledge/season-and-yield-validation.json; other fields remain provisional. RHS rough guide; weather, cultivar, establishment and training affect outcome"
       }
     },
     {
@@ -2072,7 +2072,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -2160,7 +2160,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -2247,7 +2247,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -2335,7 +2335,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     },
     {
@@ -2432,7 +2432,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
+        "note": "Legacy yield removed from canonical crop catalogue because it was unsupported; see knowledge/season-and-yield-validation.json. Other values remain provisional."
       }
     }
   ]

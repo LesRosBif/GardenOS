@@ -1,0 +1,1355 @@
+{
+  "schemaVersion": "2.1",
+  "reviewedOn": "2026-11-01",
+  "region": "southern-england",
+  "sources": {
+    "fruit": "https://www.rhs.org.uk/Advice/PDFs/Beginners-Guide/FruitProductionChart.pdf",
+    "blue": "https://www.rhs.org.uk/fruit/blueberries/grow-your-own",
+    "potato": "https://www.rhs.org.uk/advice/grow-your-own/allotments/liz-mooney/perfect-potatoes-from-the-plot",
+    "potatoGuide": "https://www.rhs.org.uk/vegetables/potatoes/grow-your-own",
+    "peas": "https://www.rhs.org.uk/vegetables/peas/grow-your-own",
+    "french": "https://www.rhs.org.uk/vegetables/french-beans/grow-your-own",
+    "runner": "https://www.rhs.org.uk/vegetables/runner-beans/grow-your-own",
+    "broad": "https://www.rhs.org.uk/vegetables/growing-for-spring",
+    "broccoli": "https://www.rhs.org.uk/vegetables/broccoli/grow-your-own",
+    "calabrese": "https://www.rhs.org.uk/advice/grow-your-own/features/fascinating-facts-broccoli",
+    "cabbage": "https://www.rhs.org.uk/vegetables/cabbages/grow-your-own",
+    "cucumber": "https://www.rhs.org.uk/vegetables/cucumbers/grow-your-own",
+    "raspberry": "https://www.rhs.org.uk/fruit/raspberries/grow-your-own",
+    "strawberry": "https://www.rhs.org.uk/fruit/strawberries/grow-your-own",
+    "lettuce": "https://www.rhs.org.uk/vegetables/lettuce/grow-your-own",
+    "spinach": "https://www.rhs.org.uk/vegetables/spinach/grow-your-own",
+    "kale": "https://www.rhs.org.uk/vegetables/kale/grow-your-own",
+    "sweetcorn": "https://www.rhs.org.uk/vegetables/sweetcorn/grow-your-own",
+    "basil": "https://www.rhs.org.uk/herbs/basil/grow-your-own",
+    "fig": "https://www.rhs.org.uk/fruit/figs/grow-your-own",
+    "parsnip": "https://www.rhs.org.uk/vegetables/parsnips/grow-your-own",
+    "calendar": "https://www.rhs.org.uk/education-learning/school-gardening/resources/food-growing/fruit-gardening-calendar",
+    "rhsJuly": "https://www.rhs.org.uk/advice/grow-your-own/in-month/july-jobs"
+  },
+  "seasonalProfiles": [
+    {
+      "cropId": "potato",
+      "id": "potato-first-early",
+      "region": "southern-england",
+      "method": "seed-tuber-outdoor",
+      "sowMonths": [
+        3,
+        3
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        6,
+        7
+      ],
+      "firstHarvestWeeks": [
+        10,
+        12
+      ],
+      "plantingSpacingCm": {
+        "within": 30,
+        "rows": 60
+      },
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Chitting optional; protect shoots from late frost"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/advice/grow-your-own/allotments/liz-mooney/perfect-potatoes-from-the-plot",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "potato",
+      "id": "potato-second-early",
+      "region": "southern-england",
+      "method": "seed-tuber-outdoor",
+      "sowMonths": [
+        4,
+        4
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        7,
+        8
+      ],
+      "firstHarvestWeeks": [
+        12,
+        14
+      ],
+      "plantingSpacingCm": {
+        "within": 30,
+        "rows": 60
+      },
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [],
+      "sourceUrl": "https://www.rhs.org.uk/advice/grow-your-own/allotments/liz-mooney/perfect-potatoes-from-the-plot",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "potato",
+      "id": "potato-maincrop",
+      "region": "southern-england",
+      "method": "seed-tuber-outdoor",
+      "sowMonths": [
+        4,
+        5
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        8,
+        10
+      ],
+      "firstHarvestWeeks": [
+        16,
+        null
+      ],
+      "plantingSpacingCm": {
+        "within": 37,
+        "rows": 75
+      },
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Storage crop; harvest may be later than 16 weeks"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/advice/grow-your-own/allotments/liz-mooney/perfect-potatoes-from-the-plot",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "pea",
+      "id": "pea-first-early",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        3,
+        6
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        6,
+        9
+      ],
+      "firstHarvestWeeks": [
+        12,
+        12
+      ],
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "RHS 12 weeks to first picking"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/peas/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "pea",
+      "id": "pea-second-early",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        3,
+        6
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        6,
+        9
+      ],
+      "firstHarvestWeeks": [
+        13,
+        14
+      ],
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/peas/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "pea",
+      "id": "pea-maincrop",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        3,
+        6
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        7,
+        10
+      ],
+      "firstHarvestWeeks": [
+        14,
+        16
+      ],
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/peas/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "pea",
+      "id": "pea-mangetout",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        3,
+        6
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        6,
+        10
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Timing depends on early/maincrop variety; don't assume shelling-pea weeks"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/peas/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "bean",
+      "id": "bean-french-dwarf",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        4,
+        7
+      ],
+      "plantOutMonths": [
+        5,
+        6
+      ],
+      "harvestMonths": [
+        7,
+        10
+      ],
+      "firstHarvestWeeks": [
+        8,
+        10
+      ],
+      "plantingSpacingCm": {
+        "within": 15,
+        "rows": null
+      },
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Early indoor sowing from late April; outdoor after frost; 15cm in blocks or double rows"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/french-beans/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "bean",
+      "id": "bean-french-climbing",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        4,
+        7
+      ],
+      "plantOutMonths": [
+        5,
+        6
+      ],
+      "harvestMonths": [
+        7,
+        10
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": {
+        "within": 15,
+        "rows": 45
+      },
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "One plant per cane; longer picking season than dwarf"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/french-beans/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "bean",
+      "id": "bean-runner-climbing",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        4,
+        7
+      ],
+      "plantOutMonths": [
+        5,
+        6
+      ],
+      "harvestMonths": [
+        7,
+        10
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Tall support required; late July sowings only viable in southern UK"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/runner-beans/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "bean",
+      "id": "bean-broad-spring",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        2,
+        4
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        5,
+        8
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Can be started indoors in February"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/growing-for-spring",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "bean",
+      "id": "bean-broad-autumn",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        10,
+        11
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        5,
+        7
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Use winter-hardy varieties; sowing in autumn means bed occupancy crosses calendar year"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/growing-for-spring",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "broccoli",
+      "id": "broccoli-sprouting-winter",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        4,
+        6
+      ],
+      "plantOutMonths": [
+        5,
+        8
+      ],
+      "harvestMonths": [
+        1,
+        4
+      ],
+      "firstHarvestWeeks": [
+        32,
+        null
+      ],
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Overwintering crop; actual maturity highly cultivar dependent; 32-week threshold is indicative from RHS eight-month statement"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/broccoli/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "broccoli",
+      "id": "broccoli-sprouting-summer",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        2,
+        7
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        6,
+        11
+      ],
+      "firstHarvestWeeks": [
+        16,
+        40
+      ],
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "RHS broad four-to-ten-month range across varieties"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/broccoli/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "broccoli",
+      "id": "broccoli-calabrese",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        3,
+        6
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        7,
+        10
+      ],
+      "firstHarvestWeeks": [
+        null,
+        17
+      ],
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "head-then-side-shoots",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "RHS describes harvest within four months; not the same as sprouting broccoli"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/advice/grow-your-own/features/fascinating-facts-broccoli",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "cabbage",
+      "id": "cabbage-spring",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        7,
+        7
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        4,
+        6
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Overwintering crop; sow July previous year"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/cabbages/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "cabbage",
+      "id": "cabbage-summer",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        2,
+        4
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        6,
+        9
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/cabbages/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "cabbage",
+      "id": "cabbage-autumn",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        4,
+        6
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        9,
+        11
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/cabbages/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "cabbage",
+      "id": "cabbage-winter",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        4,
+        6
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        11,
+        3
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Overwintering; standing crop into next year possible"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/cabbages/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "cucumber",
+      "id": "cucumber-greenhouse-heated",
+      "region": "southern-england",
+      "method": "heated-greenhouse",
+      "sowMonths": [
+        2,
+        3
+      ],
+      "plantOutMonths": [
+        3,
+        5
+      ],
+      "harvestMonths": [
+        7,
+        10
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Heated greenhouse; sow mid-Feb to mid-March; plant late March if suitable"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/cucumbers/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "cucumber",
+      "id": "cucumber-greenhouse-unheated",
+      "region": "southern-england",
+      "method": "unheated-greenhouse",
+      "sowMonths": [
+        4,
+        4
+      ],
+      "plantOutMonths": [
+        5,
+        6
+      ],
+      "harvestMonths": [
+        7,
+        10
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Plant after consistent greenhouse temperature above 12°C"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/cucumbers/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "cucumber",
+      "id": "cucumber-outdoor",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        4,
+        6
+      ],
+      "plantOutMonths": [
+        6,
+        6
+      ],
+      "harvestMonths": [
+        7,
+        9
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Late April indoor sow or direct late May/early June; transplant after reliable temperatures above 12°C"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/cucumbers/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "raspberry",
+      "id": "raspberry-summer-fruiting",
+      "region": "southern-england",
+      "method": "perennial-row",
+      "sowMonths": null,
+      "plantOutMonths": null,
+      "harvestMonths": [
+        6,
+        9
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "permanent",
+      "qualifiers": [
+        "Fruits on previous year's canes; prune fruited canes after harvest; newly planted usually fruits second summer"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/fruit/raspberries/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "raspberry",
+      "id": "raspberry-autumn-fruiting",
+      "region": "southern-england",
+      "method": "perennial-row",
+      "sowMonths": null,
+      "plantOutMonths": null,
+      "harvestMonths": [
+        8,
+        10
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "permanent",
+      "qualifiers": [
+        "Fruits on current year's canes; cut old canes to ground in February; may fruit first year"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/fruit/raspberries/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "strawberry",
+      "id": "strawberry-summer-fruiting",
+      "region": "southern-england",
+      "method": "perennial-bed",
+      "sowMonths": null,
+      "plantOutMonths": null,
+      "harvestMonths": [
+        6,
+        8
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "short-flush",
+      "occupancy": "permanent",
+      "qualifiers": [
+        "Each variety typically 2–3 weeks harvest; early/mid/late cultivars extend season"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/fruit/strawberries/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "strawberry",
+      "id": "strawberry-perpetual",
+      "region": "southern-england",
+      "method": "perennial-bed",
+      "sowMonths": null,
+      "plantOutMonths": null,
+      "harvestMonths": [
+        6,
+        10
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "permanent",
+      "qualifiers": [
+        "Smaller flushes across summer and autumn"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/fruit/strawberries/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "strawberry",
+      "id": "strawberry-alpine",
+      "region": "southern-england",
+      "method": "perennial-bed",
+      "sowMonths": null,
+      "plantOutMonths": null,
+      "harvestMonths": [
+        6,
+        9
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "permanent",
+      "qualifiers": [
+        "Small fruits; often tolerates light shade"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/fruit/strawberries/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "lettuce",
+      "id": "lettuce-loose-leaf",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        3,
+        8
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        4,
+        11
+      ],
+      "firstHarvestWeeks": [
+        4,
+        6
+      ],
+      "plantingSpacingCm": {
+        "within": 15,
+        "rows": 30
+      },
+      "expectedYield": null,
+      "harvestPattern": "cut-and-come-again",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Summer sowings benefit from light shade; winter under cover is separate"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/lettuce/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "lettuce",
+      "id": "lettuce-heading",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        3,
+        7
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        5,
+        11
+      ],
+      "firstHarvestWeeks": [
+        10,
+        14
+      ],
+      "plantingSpacingCm": {
+        "within": 30,
+        "rows": 30
+      },
+      "expectedYield": null,
+      "harvestPattern": "once",
+      "occupancy": "seasonal",
+      "qualifiers": [],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/lettuce/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "lettuce",
+      "id": "lettuce-winter-protected",
+      "region": "southern-england",
+      "method": "coldframe-or-cloche",
+      "sowMonths": [
+        9,
+        10
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        3,
+        5
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Hardy winter cultivar required; harvest date depends on winter temperature"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/lettuce/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "spinach",
+      "id": "spinach-spring",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        3,
+        5
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        4,
+        7
+      ],
+      "firstHarvestWeeks": [
+        4,
+        8
+      ],
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Baby leaves around four weeks, mature leaves around eight; bolting risk as heat rises"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/spinach/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "spinach",
+      "id": "spinach-autumn",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        8,
+        9
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        9,
+        11
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Hardy types can overwinter for spring picking under protection"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/spinach/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "kale",
+      "id": "kale-mature-leaf",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        3,
+        6
+      ],
+      "plantOutMonths": [
+        5,
+        7
+      ],
+      "harvestMonths": [
+        9,
+        5
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Harvest spans winter into next spring; annual crop can occupy bed across years"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/kale/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "kale",
+      "id": "kale-baby-leaf",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        3,
+        8
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        4,
+        10
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Much closer spacing than mature kale"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/kale/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "sweetcorn",
+      "id": "sweetcorn-standard-cob",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        4,
+        5
+      ],
+      "plantOutMonths": [
+        5,
+        6
+      ],
+      "harvestMonths": [
+        8,
+        10
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": {
+        "within": 34,
+        "rows": 45
+      },
+      "expectedYield": {
+        "min": 6,
+        "max": 9,
+        "unit": "cobs",
+        "basis": "m2",
+        "maturity": "established annual crop"
+      },
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Plant in blocks for pollination; approximately two cobs per plant"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/sweetcorn/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "sweetcorn",
+      "id": "sweetcorn-baby-corn",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        4,
+        6
+      ],
+      "plantOutMonths": [
+        5,
+        6
+      ],
+      "harvestMonths": [
+        7,
+        10
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": {
+        "within": 20,
+        "rows": null
+      },
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Harvest immature before pollination; use rows not pollination blocks"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/sweetcorn/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "basil",
+      "id": "basil-outdoor",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        3,
+        7
+      ],
+      "plantOutMonths": [
+        6,
+        6
+      ],
+      "harvestMonths": [
+        6,
+        9
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Indoor sow at ~20°C; outdoor only when nights consistently above 10°C"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/herbs/basil/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "basil",
+      "id": "basil-windowsill",
+      "region": "southern-england",
+      "method": "indoor-container",
+      "sowMonths": [
+        3,
+        7
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        4,
+        11
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Actual indoor growing period depends on light and warmth"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/herbs/basil/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "tomato",
+      "id": "tomato-cordon-outdoor",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        3,
+        4
+      ],
+      "plantOutMonths": [
+        5,
+        6
+      ],
+      "harvestMonths": [
+        7,
+        10
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Side-shoot removal; stop after approximately four trusses outdoors, subject to season"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/advice/grow-your-own/in-month/july-jobs",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "tomato",
+      "id": "tomato-cordon-greenhouse",
+      "region": "southern-england",
+      "method": "greenhouse",
+      "sowMonths": [
+        2,
+        4
+      ],
+      "plantOutMonths": [
+        4,
+        6
+      ],
+      "harvestMonths": [
+        7,
+        10
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Side-shoot removal; stop after approximately seven trusses indoors, subject to season"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/advice/grow-your-own/in-month/july-jobs",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "tomato",
+      "id": "tomato-bush-outdoor",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        3,
+        4
+      ],
+      "plantOutMonths": [
+        5,
+        6
+      ],
+      "harvestMonths": [
+        7,
+        10
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": "repeat",
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Bush tomatoes generally not side-shoot pruned"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/advice/grow-your-own/in-month/july-jobs",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "fig",
+      "id": "fig-outdoor-fan",
+      "region": "southern-england",
+      "method": "wall-trained-perennial",
+      "sowMonths": null,
+      "plantOutMonths": null,
+      "harvestMonths": [
+        8,
+        9
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "permanent",
+      "qualifiers": [
+        "UK outdoors typically one ripened crop; wall-trained fan may span ~3.5m; warm sheltered position"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/fruit/figs/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "fig",
+      "id": "fig-greenhouse",
+      "region": "southern-england",
+      "method": "greenhouse-perennial",
+      "sowMonths": null,
+      "plantOutMonths": null,
+      "harvestMonths": [
+        7,
+        10
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "permanent",
+      "qualifiers": [
+        "A second crop may ripen in favourable greenhouse conditions; no guaranteed dates"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/fruit/figs/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    },
+    {
+      "cropId": "parsnip",
+      "id": "parsnip-maincrop",
+      "region": "southern-england",
+      "method": "outdoor",
+      "sowMonths": [
+        3,
+        5
+      ],
+      "plantOutMonths": null,
+      "harvestMonths": [
+        9,
+        3
+      ],
+      "firstHarvestWeeks": null,
+      "plantingSpacingCm": null,
+      "expectedYield": null,
+      "harvestPattern": null,
+      "occupancy": "seasonal",
+      "qualifiers": [
+        "Direct sow, preferably soil around 12°C; can stay in ground over winter"
+      ],
+      "sourceUrl": "https://www.rhs.org.uk/vegetables/parsnips/grow-your-own",
+      "confidence": "source-backed-seasonal-guidance",
+      "calendarPrecision": "month-level; actual conditions and seed packet take precedence"
+    }
+  ],
+  "yieldEvidence": [
+    {
+      "cropId": "strawberry",
+      "min": 0.5,
+      "max": 1,
+      "unit": "kg",
+      "basis": "plant",
+      "maturity": "mature-healthy",
+      "sourceUrl": "https://www.rhs.org.uk/Advice/PDFs/Beginners-Guide/FruitProductionChart.pdf",
+      "confidence": "RHS-rough-guide",
+      "notes": "RHS rough guide; weather, cultivar, establishment and training affect outcome"
+    },
+    {
+      "cropId": "raspberry",
+      "min": 1,
+      "max": 1.5,
+      "unit": "kg",
+      "basis": "plant",
+      "maturity": "mature-healthy",
+      "sourceUrl": "https://www.rhs.org.uk/Advice/PDFs/Beginners-Guide/FruitProductionChart.pdf",
+      "confidence": "RHS-rough-guide",
+      "notes": "RHS rough guide; weather, cultivar, establishment and training affect outcome"
+    },
+    {
+      "cropId": "blueberry",
+      "min": 2.25,
+      "max": 5,
+      "unit": "kg",
+      "basis": "bush",
+      "maturity": "approximately-seven-years-old",
+      "sourceUrl": "https://www.rhs.org.uk/fruit/blueberries/grow-your-own",
+      "confidence": "RHS-rough-guide",
+      "notes": "RHS rough guide; weather, cultivar, establishment and training affect outcome"
+    },
+    {
+      "cropId": "fig",
+      "min": 4.5,
+      "max": 9,
+      "unit": "kg",
+      "basis": "tree",
+      "maturity": "mature-healthy",
+      "sourceUrl": "https://www.rhs.org.uk/Advice/PDFs/Beginners-Guide/FruitProductionChart.pdf",
+      "confidence": "RHS-rough-guide",
+      "notes": "RHS rough guide; weather, cultivar, establishment and training affect outcome"
+    },
+    {
+      "cropId": "lemon",
+      "min": 2,
+      "max": 7,
+      "unit": "kg",
+      "basis": "tree",
+      "maturity": "mature-healthy-citrus-generic",
+      "sourceUrl": "https://www.rhs.org.uk/Advice/PDFs/Beginners-Guide/FruitProductionChart.pdf",
+      "confidence": "RHS-rough-guide",
+      "notes": "RHS generic citrus tree yield, not specific to lemon or orange and may be unrealistic in cool UK greenhouses"
+    },
+    {
+      "cropId": "orange",
+      "min": 2,
+      "max": 7,
+      "unit": "kg",
+      "basis": "tree",
+      "maturity": "mature-healthy-citrus-generic",
+      "sourceUrl": "https://www.rhs.org.uk/Advice/PDFs/Beginners-Guide/FruitProductionChart.pdf",
+      "confidence": "RHS-rough-guide",
+      "notes": "RHS generic citrus tree yield, not specific to lemon or orange and may be unrealistic in cool UK greenhouses"
+    }
+  ],
+  "remainingYieldUnknown": [
+    "carrot",
+    "potato",
+    "parsnip",
+    "courgette",
+    "cucumber",
+    "pea",
+    "bean",
+    "spinach",
+    "lettuce",
+    "cabbage",
+    "kale",
+    "broccoli",
+    "sweetcorn",
+    "tomato",
+    "rhubarb",
+    "rosemary",
+    "thyme",
+    "oregano",
+    "mint",
+    "basil"
+  ],
+  "policy": {
+    "canonicalCropYield": "Only six fruit crops have RHS rough-guide kilogram ranges; all other unverified numeric yields removed from canonical catalogue",
+    "yieldUnitRule": "Do not conflate kilograms per plant, bush, tree, row or square metre; never convert without explicit assumptions",
+    "maturityRule": "Perennial yield requires age and establishment state; young plants may produce little or nothing",
+    "calendarRule": "Month windows are broad seasonal guidance, not exact sowing or harvest dates",
+    "variationRule": "Cultivar and method can override canonical crop dates; do not assume one crop-level window applies to all variants",
+    "unverified": "Tomato, cucumber, courgette and most vegetables still lack robust quantitative yield per plant; RHS qualitative descriptions cannot support invented kg forecasts"
+  }
+}
