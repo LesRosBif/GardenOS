@@ -1,4 +1,4 @@
-// @vitest-environment happy-dom
+// @vitest-environment jsdom
 import {describe,it,expect} from 'vitest';
 import {exportBackup,importBackup} from './backup';
 import type {Bed} from './backup';
