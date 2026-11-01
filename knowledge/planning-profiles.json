@@ -92,7 +92,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -192,7 +192,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -282,7 +282,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -373,7 +373,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -470,7 +470,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -567,7 +567,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -577,7 +577,7 @@
         "plantingSystem": "row-or-supported",
         "plantSpacingCm": 20,
         "rowSpacingCm": 45,
-        "approxPlantsPerM2": 11.11,
+        "approxPlantsPerM2": null,
         "densityMethod": "rectangular-row-estimate",
         "canopyDiameterCm": {
           "min": 16,
@@ -673,7 +673,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -767,7 +767,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -867,7 +867,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -976,7 +976,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -1067,7 +1067,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -1161,7 +1161,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -1258,7 +1258,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -1356,7 +1356,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -1444,7 +1444,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -1538,7 +1538,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -1632,7 +1632,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -1642,7 +1642,7 @@
         "plantingSystem": "permanent-or-container",
         "plantSpacingCm": 150,
         "rowSpacingCm": 150,
-        "approxPlantsPerM2": 0.44,
+        "approxPlantsPerM2": null,
         "densityMethod": "rectangular-row-estimate",
         "canopyDiameterCm": {
           "min": 120,
@@ -1721,7 +1721,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -1731,7 +1731,7 @@
         "plantingSystem": "permanent-or-container",
         "plantSpacingCm": 180,
         "rowSpacingCm": 180,
-        "approxPlantsPerM2": 0.31,
+        "approxPlantsPerM2": null,
         "densityMethod": "rectangular-row-estimate",
         "canopyDiameterCm": {
           "min": 144,
@@ -1810,7 +1810,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -1899,7 +1899,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -1909,12 +1909,9 @@
         "plantingSystem": "permanent-or-container",
         "plantSpacingCm": 200,
         "rowSpacingCm": 200,
-        "approxPlantsPerM2": 0.25,
+        "approxPlantsPerM2": null,
         "densityMethod": "rectangular-row-estimate",
-        "canopyDiameterCm": {
-          "min": 160,
-          "max": 280
-        },
+        "canopyDiameterCm": null,
         "heightCm": null,
         "rootDepthCm": null,
         "footprintByStage": null,
@@ -1987,7 +1984,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -2075,7 +2072,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -2163,7 +2160,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -2250,7 +2247,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -2338,7 +2335,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     },
     {
@@ -2435,7 +2432,7 @@
         "status": "provisional",
         "confidence": "low",
         "region": "southern-england",
-        "note": "Values are starting estimates; no source-level validation completed. Null is intentionally unknown."
+        "note": "RHS source and field-level audit in knowledge/rhs-field-validation.json; legacy values remain provisional unless separately asserted there."
       }
     }
   ]

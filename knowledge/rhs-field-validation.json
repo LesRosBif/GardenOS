@@ -1,0 +1,943 @@
+{
+  "schemaVersion": "2.0",
+  "scope": "RHS guide validation of 26 canonical crop topics; only fieldAssertions have verified numeric values",
+  "checkedOn": "2026-11-01",
+  "records": [
+    {
+      "cropId": "carrot",
+      "source": "https://www.rhs.org.uk/vegetables/carrots/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Thin to 5–7.5cm; rows 15–30cm; direct sow; main sowing April–early July. Baby carrots are a different density/harvest profile.",
+      "spacingCm": {
+        "plantMin": 5,
+        "plantMax": 7.5,
+        "rowMin": 15,
+        "rowMax": 30
+      },
+      "verifiedFieldCount": 3,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "potato",
+      "source": "https://www.rhs.org.uk/vegetables/potatoes/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Earlies 30cm × 60cm; maincrop 37cm × 75cm. Keep separate varieties; first earlies planted late March, second early early/mid-April, maincrop mid-April–early May.",
+      "spacingCm": {
+        "plantMin": 30,
+        "plantMax": 37,
+        "rowMin": 60,
+        "rowMax": 75
+      },
+      "verifiedFieldCount": 4,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "parsnip",
+      "source": "https://www.rhs.org.uk/vegetables/parsnips/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Direct sow 1cm deep; 15cm final spacing and 30cm rows; germination 14–30 days, soil around 12°C; March–early May generally more reliable.",
+      "spacingCm": {
+        "plantMin": 15,
+        "plantMax": 15,
+        "rowMin": 30,
+        "rowMax": 30
+      },
+      "verifiedFieldCount": 5,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "courgette",
+      "source": "https://www.rhs.org.uk/vegetables/courgettes/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "RHS allocates about 1m² per bush plant; climbing/compact forms differ; tender, transplant after frost.",
+      "spacingCm": {
+        "plantMin": 100,
+        "plantMax": 100,
+        "rowMin": 100,
+        "rowMax": 100
+      },
+      "verifiedFieldCount": 1,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "cucumber",
+      "source": "https://www.rhs.org.uk/vegetables/cucumbers/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "RHS gives 30cm between prepared sites for trained plants; sprawling forms need different footprint. Indoor greenhouse and outdoor cultivars are not interchangeable.",
+      "spacingCm": {
+        "plantMin": 30,
+        "plantMax": 30,
+        "rowMin": null,
+        "rowMax": null
+      },
+      "verifiedFieldCount": 1,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "pea",
+      "source": "https://www.rhs.org.uk/vegetables/peas/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "7.5cm between plants; tall varieties may be double rows 30cm apart, additional rows separated by variety height. 10°C soil for direct sowing.",
+      "spacingCm": {
+        "plantMin": 7.5,
+        "plantMax": 7.5,
+        "rowMin": 30,
+        "rowMax": null
+      },
+      "verifiedFieldCount": 2,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "bean",
+      "source": "https://www.rhs.org.uk/vegetables/french-beans/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Bean is not a single species: French dwarf 15cm in blocks; broad beans 15–23cm with 45cm single rows; runner and climbing French beans need supports. Do not use one generic density.",
+      "spacingCm": {
+        "plantMin": 15,
+        "plantMax": 23,
+        "rowMin": 45,
+        "rowMax": 45
+      },
+      "verifiedFieldCount": 2,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "spinach",
+      "source": "https://www.rhs.org.uk/vegetables/spinach/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "15cm final plants, 20cm rows for sowing; partial shade useful in summer; avoid heat-induced bolting.",
+      "spacingCm": {
+        "plantMin": 15,
+        "plantMax": 15,
+        "rowMin": 20,
+        "rowMax": 20
+      },
+      "verifiedFieldCount": 2,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "lettuce",
+      "source": "https://www.rhs.org.uk/vegetables/lettuce/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Loose leaf 15cm, hearting 30cm; rows 30cm. Loose leaf can be picked in 4–6 weeks; hearts typically 10–14 weeks.",
+      "spacingCm": {
+        "plantMin": 15,
+        "plantMax": 30,
+        "rowMin": 30,
+        "rowMax": 30
+      },
+      "verifiedFieldCount": 4,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "cabbage",
+      "source": "https://www.rhs.org.uk/vegetables/cabbages/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Spring/ summer/ autumn/ winter types require separate occupancy and density; RHS 30–45cm final sowing clusters, larger winter types may require more.",
+      "spacingCm": {
+        "plantMin": 30,
+        "plantMax": 45,
+        "rowMin": null,
+        "rowMax": null
+      },
+      "verifiedFieldCount": 0,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "kale",
+      "source": "https://www.rhs.org.uk/vegetables/kale/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Mature plants 30–60cm; baby-leaf 7.5cm. Rows at least 45cm. Height up to 90cm for some varieties.",
+      "spacingCm": {
+        "plantMin": 30,
+        "plantMax": 60,
+        "rowMin": 45,
+        "rowMax": 45
+      },
+      "verifiedFieldCount": 2,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "broccoli",
+      "source": "https://www.rhs.org.uk/vegetables/broccoli/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "RHS broccoli guide is principally sprouting broccoli, 60–80cm direct final stations and 4–10 months to crop. Calabrese must have a separate record.",
+      "spacingCm": {
+        "plantMin": 60,
+        "plantMax": 80,
+        "rowMin": null,
+        "rowMax": null
+      },
+      "verifiedFieldCount": 2,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "sweetcorn",
+      "source": "https://www.rhs.org.uk/vegetables/sweetcorn/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "34–45cm plants, in blocks for wind pollination. RHS expects roughly 6–9 cobs per m²; do not interpret as kg per plant.",
+      "spacingCm": {
+        "plantMin": 34,
+        "plantMax": 45,
+        "rowMin": null,
+        "rowMax": null
+      },
+      "verifiedFieldCount": 2,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "tomato",
+      "source": "https://www.rhs.org.uk/vegetables/tomatoes/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "45–60cm between outdoor plants; cordon vs bush and greenhouse vs outdoor have different canopy and maintenance.",
+      "spacingCm": {
+        "plantMin": 45,
+        "plantMax": 60,
+        "rowMin": null,
+        "rowMax": null
+      },
+      "verifiedFieldCount": 1,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "rhubarb",
+      "source": "https://www.rhs.org.uk/fruit/rhubarb/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Crowns 1m apart and rows 1–2m; permanent, no first-year harvest; RHS yield 4.5–13.5kg per 3m row, not per crown.",
+      "spacingCm": {
+        "plantMin": 100,
+        "plantMax": 100,
+        "rowMin": 100,
+        "rowMax": 200
+      },
+      "verifiedFieldCount": 2,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "strawberry",
+      "source": "https://www.rhs.org.uk/fruit/strawberries/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "35–40cm plants and ~75cm rows; summer, perpetual and alpine forms have different cropping periods.",
+      "spacingCm": {
+        "plantMin": 35,
+        "plantMax": 40,
+        "rowMin": 75,
+        "rowMax": 75
+      },
+      "verifiedFieldCount": 2,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "raspberry",
+      "source": "https://www.rhs.org.uk/fruit/raspberries/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "40–60cm canes, 1.5–2m rows; summer and autumn varieties require distinct pruning and fruiting calendars.",
+      "spacingCm": {
+        "plantMin": 40,
+        "plantMax": 60,
+        "rowMin": 150,
+        "rowMax": 200
+      },
+      "verifiedFieldCount": 3,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "lemon",
+      "source": "https://www.rhs.org.uk/fruit/citrus/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Protected citrus. RHS says some lemons tolerate 5°C minimum, cultivar-dependent. A frost-free greenhouse is not automatically warm enough for all citrus.",
+      "spacingCm": null,
+      "verifiedFieldCount": 1,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "orange",
+      "source": "https://www.rhs.org.uk/fruit/citrus/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Protected citrus. RHS says calamondin orange requires at least 13°C; not transferable to all sweet oranges. Cultivar identity is essential.",
+      "spacingCm": null,
+      "verifiedFieldCount": 1,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "blueberry",
+      "source": "https://www.rhs.org.uk/fruit/blueberries/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Soil pH 4.5–5.5; bushes 1–2m apart; partial shade crops less. Prefer ericaceous compost and rainwater where appropriate.",
+      "spacingCm": {
+        "plantMin": 100,
+        "plantMax": 200,
+        "rowMin": null,
+        "rowMax": null
+      },
+      "verifiedFieldCount": 2,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "fig",
+      "source": "https://www.rhs.org.uk/fruit/figs/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Warm sunny sheltered position, root restriction often useful; fan-trained plant can reach 3.5m width. Generic 2m plant spacing is misleading.",
+      "spacingCm": null,
+      "verifiedFieldCount": 1,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "rosemary",
+      "source": "https://www.rhs.org.uk/herbs/rosemary/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Evergreen, full sun, free draining, harvest all year; canopy size cultivar-dependent.",
+      "spacingCm": null,
+      "verifiedFieldCount": 0,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "thyme",
+      "source": "https://www.rhs.org.uk/herbs/thyme/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Evergreen, full sun, free draining, harvest all year.",
+      "spacingCm": null,
+      "verifiedFieldCount": 0,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "oregano",
+      "source": "https://www.rhs.org.uk/herbs/oregano/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "20–30cm between plants; free-draining soil; 30–60cm mature height/spread; perennial.",
+      "spacingCm": {
+        "plantMin": 20,
+        "plantMax": 30,
+        "rowMin": null,
+        "rowMax": null
+      },
+      "verifiedFieldCount": 2,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "mint",
+      "source": "https://www.rhs.org.uk/herbs/mint/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Sun or partial shade, vigorous rhizomes; pot preferred to prevent spread. Fixed bed density can mislead.",
+      "spacingCm": null,
+      "verifiedFieldCount": 0,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    },
+    {
+      "cropId": "basil",
+      "source": "https://www.rhs.org.uk/herbs/basil/grow-your-own",
+      "checkedOn": "2026-11-01",
+      "summary": "Warm bright site; outdoor sow only when nights consistently above 10°C; microgreens and mature plants are separate profiles.",
+      "spacingCm": null,
+      "verifiedFieldCount": 1,
+      "notVerified": [
+        "universal direct-sun hours",
+        "per-plant kilogram yield",
+        "all cultivar-specific schedules",
+        "universal maturity date"
+      ]
+    }
+  ],
+  "fieldAssertions": [
+    {
+      "cropId": "carrot",
+      "field": "sowing.depthCm",
+      "value": 1,
+      "source": "https://www.rhs.org.uk/vegetables/carrots/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "carrot",
+      "field": "spacing.finalPlantCm",
+      "value": [
+        5,
+        7.5
+      ],
+      "source": "https://www.rhs.org.uk/vegetables/carrots/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "carrot",
+      "field": "spacing.rowsCm",
+      "value": [
+        15,
+        30
+      ],
+      "source": "https://www.rhs.org.uk/vegetables/carrots/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "potato",
+      "field": "spacing.earliesPlantCm",
+      "value": 30,
+      "source": "https://www.rhs.org.uk/vegetables/potatoes/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "potato",
+      "field": "spacing.earliesRowsCm",
+      "value": 60,
+      "source": "https://www.rhs.org.uk/vegetables/potatoes/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "potato",
+      "field": "spacing.maincropPlantCm",
+      "value": 37,
+      "source": "https://www.rhs.org.uk/vegetables/potatoes/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "potato",
+      "field": "spacing.maincropRowsCm",
+      "value": 75,
+      "source": "https://www.rhs.org.uk/vegetables/potatoes/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "parsnip",
+      "field": "sowing.depthCm",
+      "value": 1,
+      "source": "https://www.rhs.org.uk/vegetables/parsnips/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "parsnip",
+      "field": "germination.days",
+      "value": [
+        14,
+        30
+      ],
+      "source": "https://www.rhs.org.uk/vegetables/parsnips/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "parsnip",
+      "field": "germination.soilTemperatureC",
+      "value": 12,
+      "source": "https://www.rhs.org.uk/vegetables/parsnips/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "parsnip",
+      "field": "spacing.finalPlantCm",
+      "value": 15,
+      "source": "https://www.rhs.org.uk/vegetables/parsnips/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "parsnip",
+      "field": "spacing.rowsCm",
+      "value": 30,
+      "source": "https://www.rhs.org.uk/vegetables/parsnips/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "courgette",
+      "field": "footprint.bushAreaM2",
+      "value": 1,
+      "source": "https://www.rhs.org.uk/vegetables/courgettes/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "cucumber",
+      "field": "spacing.trainedPlantsCm",
+      "value": 30,
+      "source": "https://www.rhs.org.uk/vegetables/cucumbers/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "pea",
+      "field": "spacing.plantCm",
+      "value": 7.5,
+      "source": "https://www.rhs.org.uk/vegetables/peas/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "pea",
+      "field": "germination.outdoorSoilTemperatureC",
+      "value": 10,
+      "source": "https://www.rhs.org.uk/vegetables/peas/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "bean",
+      "field": "spacing.frenchDwarfPlantCm",
+      "value": 15,
+      "source": "https://www.rhs.org.uk/vegetables/french-beans/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "bean",
+      "field": "spacing.broadBeanPlantCm",
+      "value": [
+        15,
+        23
+      ],
+      "source": "https://www.rhs.org.uk/vegetables/french-beans/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "spinach",
+      "field": "spacing.maturePlantCm",
+      "value": 15,
+      "source": "https://www.rhs.org.uk/vegetables/spinach/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "spinach",
+      "field": "spacing.rowsCm",
+      "value": 20,
+      "source": "https://www.rhs.org.uk/vegetables/spinach/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "lettuce",
+      "field": "spacing.looseLeafCm",
+      "value": 15,
+      "source": "https://www.rhs.org.uk/vegetables/lettuce/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "lettuce",
+      "field": "spacing.heartingCm",
+      "value": 30,
+      "source": "https://www.rhs.org.uk/vegetables/lettuce/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "lettuce",
+      "field": "maturity.looseLeafWeeks",
+      "value": [
+        4,
+        6
+      ],
+      "source": "https://www.rhs.org.uk/vegetables/lettuce/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "lettuce",
+      "field": "maturity.heartingWeeks",
+      "value": [
+        10,
+        14
+      ],
+      "source": "https://www.rhs.org.uk/vegetables/lettuce/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "kale",
+      "field": "spacing.maturePlantCm",
+      "value": [
+        30,
+        60
+      ],
+      "source": "https://www.rhs.org.uk/vegetables/kale/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "kale",
+      "field": "spacing.babyLeafCm",
+      "value": 7.5,
+      "source": "https://www.rhs.org.uk/vegetables/kale/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "broccoli",
+      "field": "spacing.sproutingFinalStationCm",
+      "value": [
+        60,
+        80
+      ],
+      "source": "https://www.rhs.org.uk/vegetables/broccoli/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "broccoli",
+      "field": "maturity.sproutingMonths",
+      "value": [
+        4,
+        10
+      ],
+      "source": "https://www.rhs.org.uk/vegetables/broccoli/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "sweetcorn",
+      "field": "spacing.plantCm",
+      "value": [
+        34,
+        45
+      ],
+      "source": "https://www.rhs.org.uk/vegetables/sweetcorn/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "sweetcorn",
+      "field": "yield.cobsPerM2",
+      "value": [
+        6,
+        9
+      ],
+      "source": "https://www.rhs.org.uk/vegetables/sweetcorn/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "tomato",
+      "field": "spacing.outdoorPlantCm",
+      "value": [
+        45,
+        60
+      ],
+      "source": "https://www.rhs.org.uk/vegetables/tomatoes/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "rhubarb",
+      "field": "spacing.crownsCm",
+      "value": 100,
+      "source": "https://www.rhs.org.uk/fruit/rhubarb/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "rhubarb",
+      "field": "harvest.firstYearAllowed",
+      "value": false,
+      "source": "https://www.rhs.org.uk/fruit/rhubarb/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "strawberry",
+      "field": "spacing.plantsCm",
+      "value": [
+        35,
+        40
+      ],
+      "source": "https://www.rhs.org.uk/fruit/strawberries/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "strawberry",
+      "field": "spacing.rowsCm",
+      "value": 75,
+      "source": "https://www.rhs.org.uk/fruit/strawberries/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "raspberry",
+      "field": "spacing.plantsCm",
+      "value": [
+        40,
+        60
+      ],
+      "source": "https://www.rhs.org.uk/fruit/raspberries/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "raspberry",
+      "field": "spacing.rowsCm",
+      "value": [
+        150,
+        200
+      ],
+      "source": "https://www.rhs.org.uk/fruit/raspberries/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "raspberry",
+      "field": "soil.ph",
+      "value": [
+        6,
+        6.7
+      ],
+      "source": "https://www.rhs.org.uk/fruit/raspberries/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "blueberry",
+      "field": "soil.ph",
+      "value": [
+        4.5,
+        5.5
+      ],
+      "source": "https://www.rhs.org.uk/fruit/blueberries/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "blueberry",
+      "field": "spacing.plantsCm",
+      "value": [
+        100,
+        200
+      ],
+      "source": "https://www.rhs.org.uk/fruit/blueberries/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "fig",
+      "field": "footprint.fanWidthCm",
+      "value": 350,
+      "source": "https://www.rhs.org.uk/fruit/figs/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "oregano",
+      "field": "spacing.plantsCm",
+      "value": [
+        20,
+        30
+      ],
+      "source": "https://www.rhs.org.uk/herbs/oregano/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "oregano",
+      "field": "size.matureSpreadCm",
+      "value": [
+        30,
+        60
+      ],
+      "source": "https://www.rhs.org.uk/herbs/oregano/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "basil",
+      "field": "temperature.outdoorNightMinimumC",
+      "value": 10,
+      "source": "https://www.rhs.org.uk/herbs/basil/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "lemon",
+      "field": "temperature.someLemonMinimumC",
+      "value": 5,
+      "source": "https://www.rhs.org.uk/fruit/citrus/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    },
+    {
+      "cropId": "orange",
+      "field": "temperature.calamondinMinimumC",
+      "value": 13,
+      "source": "https://www.rhs.org.uk/fruit/citrus/grow-your-own",
+      "confidence": "high",
+      "status": "rhs-confirmed",
+      "checkedOn": "2026-11-01"
+    }
+  ],
+  "notes": "Do not overwrite cultivar-specific requirements with generic estimates. For beans RHS French bean page supplemented by broad bean and runner bean guidance. Crop-level notes are not blanket verification of legacy numeric fields."
+}
