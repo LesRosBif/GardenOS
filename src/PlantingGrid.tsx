@@ -1,0 +1,7 @@
+import {useState} from 'react';
+import type {Allocation,BedRef} from './CropWorkspace';
+import {crops,validAllocation} from './CropWorkspace';
+export function cellsFor(bed:BedRef,allocations:Allocation[],date:string){const occupied=new Map<string,Allocation>();for(const a of allocations){if(a.bedId!==bed.id||date<a.start||date>a.end)continue;for(let y=a.y;y<a.y+a.h;y++)for(let x=a.x;x<a.x+a.w;x++)occupied.set(x+','+y,a)}return occupied}
+export default function PlantingGrid({bed,allocations,date,onChoose}:{bed:BedRef;allocations:Allocation[];date:string;onChoose:(x:number,y:number)=>void}){const occupied=cellsFor(bed,allocations,date);return <div className="planting-grid" style={{gridTemplateColumns:`repeat(${bed.w},minmax(0,1fr))`}} role="group" aria-label={`${bed.name} planting grid`}>{Array.from({length:bed.w*bed.h},(_,i)=>{const x=i%bed.w,y=Math.floor(i/bed.w),a=occupied.get(x+','+y),name=a?crops.find(c=>c.id===a.cropId)?.name:'';return <button type="button" key={i} className={'plant-cell '+(a?'occupied':'')} title={a?`${name} · cell ${x+1},${y+1}`:`Empty cell ${x+1},${y+1}`} aria-label={a?`${name} at column ${x+1}, row ${y+1}`:`Select column ${x+1}, row ${y+1}`} onClick={()=>onChoose(x,y)}>{a?name?.slice(0,3):'+'}</button>})}</div>}
+export function occupancyAt(bed:BedRef,allocations:Allocation[],date:string){return cellsFor(bed,allocations,date).size/(bed.w*bed.h)}
+export function placementValid(bed:BedRef,allocations:Allocation[],candidate:Allocation){return validAllocation(candidate,[bed],allocations)}
