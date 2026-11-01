@@ -1,0 +1,1409 @@
+{
+  "schemaVersion": "1.0",
+  "crops": [
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "category": "vegetable",
+      "family": "Apiaceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "direct",
+        "protected": false,
+        "sowMonths": [
+          3,
+          7
+        ],
+        "harvestMonths": [
+          6,
+          11
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 8
+        },
+        "rowSpacingCm": {
+          "typical": 25
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 6,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 0.08,
+          "high": 0.18,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "potato",
+      "name": "Potato",
+      "category": "vegetable",
+      "family": "Solanaceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "tuber",
+        "protected": false,
+        "sowMonths": [
+          3,
+          4
+        ],
+        "harvestMonths": [
+          6,
+          10
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 35
+        },
+        "rowSpacingCm": {
+          "typical": 70
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 6,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 1,
+          "high": 2.5,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "parsnip",
+      "name": "Parsnip",
+      "category": "vegetable",
+      "family": "Apiaceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "direct",
+        "protected": false,
+        "sowMonths": [
+          3,
+          5
+        ],
+        "harvestMonths": [
+          9,
+          2
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": true,
+        "spacingCm": {
+          "typical": 13
+        },
+        "rowSpacingCm": {
+          "typical": 30
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 6,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 0.15,
+          "high": 0.35,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "courgette",
+      "name": "Courgette",
+      "category": "vegetable",
+      "family": "Cucurbitaceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "indoor",
+        "protected": false,
+        "sowMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          7,
+          10
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 90
+        },
+        "rowSpacingCm": {
+          "typical": 90
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 6,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 3,
+          "high": 8,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumber",
+      "category": "vegetable",
+      "family": "Cucurbitaceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "indoor",
+        "protected": false,
+        "sowMonths": [
+          3,
+          5
+        ],
+        "harvestMonths": [
+          6,
+          9
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 50
+        },
+        "rowSpacingCm": {
+          "typical": 70
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 6,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 2,
+          "high": 6,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "required-or-cultivar-dependent"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "pea",
+      "name": "Pea",
+      "category": "vegetable",
+      "family": "Fabaceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "direct",
+        "protected": false,
+        "sowMonths": [
+          3,
+          6
+        ],
+        "harvestMonths": [
+          6,
+          9
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 8
+        },
+        "rowSpacingCm": {
+          "typical": 45
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 5,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 0.1,
+          "high": 0.4,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "required-or-cultivar-dependent"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "bean",
+      "name": "Bean",
+      "category": "vegetable",
+      "family": "Fabaceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "direct",
+        "protected": false,
+        "sowMonths": [
+          4,
+          7
+        ],
+        "harvestMonths": [
+          6,
+          10
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 20
+        },
+        "rowSpacingCm": {
+          "typical": 45
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 6,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 0.3,
+          "high": 1.5,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "required-or-cultivar-dependent"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "spinach",
+      "name": "Spinach",
+      "category": "vegetable",
+      "family": "Amaranthaceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "direct",
+        "protected": false,
+        "sowMonths": [
+          3,
+          9
+        ],
+        "harvestMonths": [
+          4,
+          11
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 15
+        },
+        "rowSpacingCm": {
+          "typical": 25
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 3,
+          "shadeTolerance": "partial"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 0.1,
+          "high": 0.35,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "lettuce",
+      "name": "Lettuce",
+      "category": "vegetable",
+      "family": "Asteraceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "both",
+        "protected": false,
+        "sowMonths": [
+          2,
+          9
+        ],
+        "harvestMonths": [
+          4,
+          11
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 25
+        },
+        "rowSpacingCm": {
+          "typical": 25
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 3,
+          "shadeTolerance": "partial"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 0.15,
+          "high": 0.4,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "cabbage",
+      "name": "Cabbage",
+      "category": "vegetable",
+      "family": "Brassicaceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "indoor",
+        "protected": false,
+        "sowMonths": [
+          2,
+          8
+        ],
+        "harvestMonths": [
+          5,
+          3
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": true,
+        "spacingCm": {
+          "typical": 50
+        },
+        "rowSpacingCm": {
+          "typical": 55
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 6,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 0.5,
+          "high": 2,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "kale",
+      "name": "Kale",
+      "category": "vegetable",
+      "family": "Brassicaceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "indoor",
+        "protected": false,
+        "sowMonths": [
+          3,
+          6
+        ],
+        "harvestMonths": [
+          9,
+          3
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": true,
+        "spacingCm": {
+          "typical": 50
+        },
+        "rowSpacingCm": {
+          "typical": 55
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 5,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 0.5,
+          "high": 1.5,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "broccoli",
+      "name": "Broccoli",
+      "category": "vegetable",
+      "family": "Brassicaceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "indoor",
+        "protected": false,
+        "sowMonths": [
+          3,
+          6
+        ],
+        "harvestMonths": [
+          6,
+          4
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": true,
+        "spacingCm": {
+          "typical": 50
+        },
+        "rowSpacingCm": {
+          "typical": 55
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 6,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 0.3,
+          "high": 1.2,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "sweetcorn",
+      "name": "Sweetcorn",
+      "category": "vegetable",
+      "family": "Poaceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "indoor",
+        "protected": false,
+        "sowMonths": [
+          4,
+          5
+        ],
+        "harvestMonths": [
+          8,
+          9
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 40
+        },
+        "rowSpacingCm": {
+          "typical": 55
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 7,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 0.15,
+          "high": 0.5,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "category": "fruit",
+      "family": "Solanaceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "indoor",
+        "protected": false,
+        "sowMonths": [
+          2,
+          4
+        ],
+        "harvestMonths": [
+          7,
+          10
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 50
+        },
+        "rowSpacingCm": {
+          "typical": 60
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 6,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 2,
+          "high": 5,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "required-or-cultivar-dependent"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "rhubarb",
+      "name": "Rhubarb",
+      "category": "fruit",
+      "family": "Polygonaceae",
+      "lifecycle": "perennial",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "crown",
+        "protected": false,
+        "sowMonths": [
+          11,
+          3
+        ],
+        "harvestMonths": [
+          3,
+          6
+        ],
+        "sowWindowWraps": true,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 100
+        },
+        "rowSpacingCm": {
+          "typical": 100
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 4,
+          "shadeTolerance": "partial"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 1,
+          "high": 4,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "permanent"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "strawberry",
+      "name": "Strawberry",
+      "category": "fruit",
+      "family": "Rosaceae",
+      "lifecycle": "perennial",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "plant",
+        "protected": false,
+        "sowMonths": [
+          3,
+          10
+        ],
+        "harvestMonths": [
+          5,
+          9
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 35
+        },
+        "rowSpacingCm": {
+          "typical": 40
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 6,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 0.15,
+          "high": 0.5,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "permanent"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "raspberry",
+      "name": "Raspberry",
+      "category": "fruit",
+      "family": "Rosaceae",
+      "lifecycle": "perennial",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "cane",
+        "protected": false,
+        "sowMonths": [
+          11,
+          3
+        ],
+        "harvestMonths": [
+          6,
+          10
+        ],
+        "sowWindowWraps": true,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 45
+        },
+        "rowSpacingCm": {
+          "typical": 50
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 6,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 0.4,
+          "high": 1.5,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "permanent"
+        },
+        "support": "required-or-cultivar-dependent"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "category": "fruit",
+      "family": "Rutaceae",
+      "lifecycle": "perennial",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "tree",
+        "protected": true,
+        "sowMonths": [
+          3,
+          5
+        ],
+        "harvestMonths": [
+          1,
+          12
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 150
+        },
+        "rowSpacingCm": {
+          "typical": 150
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 7,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 2,
+          "high": 10,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "permanent"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "category": "fruit",
+      "family": "Rutaceae",
+      "lifecycle": "perennial",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "tree",
+        "protected": true,
+        "sowMonths": [
+          3,
+          5
+        ],
+        "harvestMonths": [
+          1,
+          12
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 180
+        },
+        "rowSpacingCm": {
+          "typical": 180
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 7,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 2,
+          "high": 12,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "permanent"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "blueberry",
+      "name": "Blueberry",
+      "category": "fruit",
+      "family": "Ericaceae",
+      "lifecycle": "perennial",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "shrub",
+        "protected": false,
+        "sowMonths": [
+          11,
+          3
+        ],
+        "harvestMonths": [
+          7,
+          9
+        ],
+        "sowWindowWraps": true,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 120
+        },
+        "rowSpacingCm": {
+          "typical": 120
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 6,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 4.5,
+          "phMax": 5.5,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 1,
+          "high": 4,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "permanent"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "fig",
+      "name": "Fig",
+      "category": "fruit",
+      "family": "Moraceae",
+      "lifecycle": "perennial",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "tree",
+        "protected": false,
+        "sowMonths": [
+          3,
+          5
+        ],
+        "harvestMonths": [
+          8,
+          10
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 200
+        },
+        "rowSpacingCm": {
+          "typical": 200
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 7,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 2,
+          "high": 10,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "permanent"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "rosemary",
+      "name": "Rosemary",
+      "category": "herb",
+      "family": "Lamiaceae",
+      "lifecycle": "perennial",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "plant",
+        "protected": false,
+        "sowMonths": [
+          4,
+          6
+        ],
+        "harvestMonths": [
+          4,
+          11
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 65
+        },
+        "rowSpacingCm": {
+          "typical": 65
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 7,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "free-draining"
+        },
+        "yield": {
+          "low": 0.1,
+          "high": 0.5,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "permanent"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "thyme",
+      "name": "Thyme",
+      "category": "herb",
+      "family": "Lamiaceae",
+      "lifecycle": "perennial",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "both",
+        "protected": false,
+        "sowMonths": [
+          3,
+          6
+        ],
+        "harvestMonths": [
+          4,
+          10
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 25
+        },
+        "rowSpacingCm": {
+          "typical": 30
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 7,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "free-draining"
+        },
+        "yield": {
+          "low": 0.05,
+          "high": 0.2,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "permanent"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "oregano",
+      "name": "Oregano",
+      "category": "herb",
+      "family": "Lamiaceae",
+      "lifecycle": "perennial",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "both",
+        "protected": false,
+        "sowMonths": [
+          3,
+          6
+        ],
+        "harvestMonths": [
+          5,
+          9
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 35
+        },
+        "rowSpacingCm": {
+          "typical": 35
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 6,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "free-draining"
+        },
+        "yield": {
+          "low": 0.1,
+          "high": 0.3,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "permanent"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "mint",
+      "name": "Mint",
+      "category": "herb",
+      "family": "Lamiaceae",
+      "lifecycle": "perennial",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "plant",
+        "protected": false,
+        "sowMonths": [
+          3,
+          5
+        ],
+        "harvestMonths": [
+          4,
+          10
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 40
+        },
+        "rowSpacingCm": {
+          "typical": 40
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 3,
+          "shadeTolerance": "partial"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 0.2,
+          "high": 0.8,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "permanent"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    },
+    {
+      "id": "basil",
+      "name": "Basil",
+      "category": "herb",
+      "family": "Lamiaceae",
+      "lifecycle": "annual",
+      "region": "uk-south",
+      "cultivation": {
+        "method": "indoor",
+        "protected": false,
+        "sowMonths": [
+          3,
+          6
+        ],
+        "harvestMonths": [
+          6,
+          9
+        ],
+        "sowWindowWraps": false,
+        "harvestWindowWraps": false,
+        "spacingCm": {
+          "typical": 25
+        },
+        "rowSpacingCm": {
+          "typical": 25
+        },
+        "light": {
+          "preferredDirectSunHoursMin": 7,
+          "shadeTolerance": "low"
+        },
+        "soil": {
+          "phMin": 5.8,
+          "phMax": 7.2,
+          "drainage": "well-drained"
+        },
+        "yield": {
+          "low": 0.1,
+          "high": 0.35,
+          "unit": "kg",
+          "basis": "plant",
+          "confidence": "low"
+        },
+        "occupancy": {
+          "type": "seasonal"
+        },
+        "support": "none-or-optional"
+      },
+      "provenance": {
+        "status": "provisional",
+        "region": "southern-england",
+        "reviewed": "2026-11-01",
+        "notes": "Planning defaults only; cultivar and growing method must be confirmed before precise recommendations."
+      }
+    }
+  ]
+}
