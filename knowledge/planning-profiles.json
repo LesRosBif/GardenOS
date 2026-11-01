@@ -141,10 +141,7 @@
           6,
           10
         ],
-        "daysFromSowToFirstHarvest": {
-          "min": 70,
-          "max": 150
-        },
+        "daysFromSowToFirstHarvest": null,
         "germinationDays": null,
         "germinationTemperatureC": null,
         "sowDepthCm": null,
@@ -522,10 +519,7 @@
           6,
           9
         ],
-        "daysFromSowToFirstHarvest": {
-          "min": 65,
-          "max": 110
-        },
+        "daysFromSowToFirstHarvest": null,
         "germinationDays": null,
         "germinationTemperatureC": null,
         "sowDepthCm": null,
@@ -1122,10 +1116,7 @@
           6,
           4
         ],
-        "daysFromSowToFirstHarvest": {
-          "min": 90,
-          "max": 300
-        },
+        "daysFromSowToFirstHarvest": null,
         "germinationDays": null,
         "germinationTemperatureC": null,
         "sowDepthCm": null,
@@ -2042,8 +2033,8 @@
           6
         ],
         "harvestMonths": [
-          4,
-          11
+          1,
+          12
         ],
         "daysFromSowToFirstHarvest": null,
         "germinationDays": null,
@@ -2130,8 +2121,8 @@
           6
         ],
         "harvestMonths": [
-          4,
-          10
+          1,
+          12
         ],
         "daysFromSowToFirstHarvest": null,
         "germinationDays": null,
@@ -2387,7 +2378,7 @@
         "containerSuitable": true
       },
       "phenology": {
-        "propagation": "indoor",
+        "propagation": "seed",
         "sowMonths": [
           3,
           6
